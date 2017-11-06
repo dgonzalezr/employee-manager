@@ -1,0 +1,50 @@
+{
+  "name": "employee-manager",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "eslint-check": "eslint --print-config .eslintrc.json | eslint-config-prettier-check",
+    "prettier": "prettier 'src/**/*.js'",
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^4.6.0",
+    "lodash": "^4.17.4",
+    "react": "16.0.0-beta.5",
+    "react-native": "0.49.3",
+    "react-native-communications": "^2.2.1",
+    "react-native-linear-gradient": "^2.3.0",
+    "react-native-vector-icons": "^4.4.2",
+    "react-native-wheel-datepicker": "https://github.com/pinguinjkeke/react-native-wheel-datepicker.git",
+    "react-navigation": "1.0.0-beta.15",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-promise-middleware": "^4.4.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.9.0",
+    "eslint-config-prettier": "^2.6.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-flowtype": "^2.39.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react-native": "^3.1.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "21.2.1",
+    "prettier": "^1.7.4",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": ["./src/assets/fonts"]
+  }
+}
